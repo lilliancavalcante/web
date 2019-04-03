@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // Uma empresa decide dar aumento aos funcionários de acordo com o seu cargo, disposto na tabela abaixo:
+    //     CARGO:			    %AUMENTO 
+    //     Produção		        6.5
+    //     Administrativo	    7.5
+    //     Diretoria		    12
+    //     De acordo com a tabela acima faça um programa que receba o cargo e o salário de um funcionário e calcule e imprima o salário reajustado 
+
+    
+    let cargo = prompt("Qual é o seu cargo?");
+    let salario = parseFloat(prompt("Qual é o seu salário?"));
+    let resultado = "";
+    let novoSalario = 0;
+
+        if (cargo == 'produção'){
+            novoSalario = salario * 1.065;
+
+        } else if (cargo == 'administrativo'){
+            novoSalario = salario * 1.075;
+
+        } else if (cargo == 'diretoria'){
+            novoSalario = salario * 1.12;
+
+        } else{
+            novoSalario = "Cargo sem reajuste";
+        }   
+
+
+   
+
+        resultado = `
+            Cargo: ${cargo}
+            Novo Salário: ${novoSalario}
+         `;
+
+
+            alert(resultado)
+    </script>
+
+
+
+
+
+</body>
+</html>

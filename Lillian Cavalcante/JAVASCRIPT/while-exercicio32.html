@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // Faça um programa que solicite números inteiros ao usuário e some em uma variável chamada de “resultado”.
+    //  Dê a opção do usuário sair e, após sair, o programa exiba o resultado da somatória dos números digitados. 
+    //  Utilize a estrutura WHILE.
+    
+    let resultado = 0;
+    let sair = "não";
+
+    while ( sair == "não"){
+        let numeroDigitado = parseInt(prompt("Digite um número"));
+        resultado = resultado + numeroDigitado;
+        sair = prompt("Você quer sair do programa?");
+
+    }
+
+    console.top(`Somatória: ${resultado}`);
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

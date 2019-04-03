@@ -1,0 +1,51 @@
+/* reset de propriedades */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* mobile first */
+body {
+    background-color: #e253e7;
+    }
+
+    /* tablets */
+    @media screen and (min-width: 768px){
+        body {
+            background-color: aquamarine;
+        }
+    }
+
+    /* desktop */
+    @media screen and (min-width: 992px) {
+        body {
+            background-color: gold;
+        }
+    }
+
+    /* telas largas */
+    @media screen and (min-width: 1200px) {
+        body {
+            background-color: saddlebrown;
+        }
+
+        #container {
+                max-width: 1000px;
+                margin: 0 auto;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+

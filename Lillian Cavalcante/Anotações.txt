@@ -1,0 +1,142 @@
+- width largura
+- height altura
+
+-centralizar arquivo: margin com 2 valores (top-bottom 1 valor - 2 valor right-left)
+
+-label: não aceita margin se o for inline, só vai aceitar padding. Só aceita margin se for block, ou inline-block.
+
+-box-shadow: valores negativos sombra esquerda "-2"|
+valores positivos direita "2"| 
+valores negativos sombra em cima ---
+valores positivos sombra embaixo ---
+
+-margin: auto centraliza. 
+
+-border-radios: arredonda os cantos 
+
+em- o valor e sempre referente ao dobro do valor que erqa o antecessessor. 
+
+rem - o valor e sempre equivalente ao dobro do body.
+
+w.h -> altura 
+v.w -> largura 
+
+inline-block: um do lado do outro
+
+position static: não aceita sistema de coordenadas de posicionamento
+
+position relative: o elemento é posicionado em relação à sua posição normal.
+
+position absolut: o elemento é posicionado de forma absoluta em seu primeiro pai posicionado. Se nao tiber nenhum position definido ele vai se basear pelo body (viewport-janela do navegador area util de visualização). 
+
+position fixed: toma como base a viewport, conforme a barra de rolagem da página você desde a base rola junto. 
+
+#seletor de id-> para colocar css somente aonde esta #artigo1 #artigo2 
+
+
+top: positivo o arquivo desce, se for negativo sobe. (position relative)
+bottom: o arquivo sobe (position relative)
+
+legenda imagem: figcation-> com top, left %
+
+centralizar a section: tem que estar em block, coloca widht (largura) com margin 0auto; 
+
+
+flex-direction -> 
+display: flex; fica uma do lado da outra 
+sem display fica uma abaixo da outra
+*row: os itens são colocados da mesma forma que a direção do texto
+*column: uma abaixo da outra - itens são colocados de cima para baixo.
+*row-reverse: coluna em ordem invertida, em linha 3,2,1
+*column-reverse: coluna em ordem invertida, uma abaixo da outra 3,2,1
+
+Justify-content: alinhamento na horizontal (-) 
+flex-start-esquerda, center-centro, flex-end-direita
+space-between -> ajusta o elemento ao espaço da tela. 
+space-around-> distribiu igualmente espaço um pouco antes e um pouco depois de cada elemento
+
+Align-items: alinhamento na vertical (|) 
+flex-start-parte cima da tela, center-centro, flex-end-parte baixo da tela 
+baseline: alinha de acordo com a linha base da tipografia (se alinha ao topo da página).
+
+flex-wrap: nowrap: quebra de linha, espaco entre os elementos. (tem que estar justify-content: space-between)
+
+vh- toda parte branca da tela
+
+|-----------------------------------------------|
+|preto(-header,lwebdesign-img, nav e link)	|
+|container->header flex * space betbetween 	|				|						|
+-------------------------------------------------
+
+padind: 1º é a parte de cima/baixo, 2º número e direita/esquerda
+
+dicas organizar css ->displays,dimensionamento,fontes,cores,bordas
+
+Inline: só consegue mecher nas laterais com o padding21:41 19/02/2019
+
+floot: 
+
+
+-----------------------------------------------------------------------
+
+************** javascript **************
+
+verdadeiro E verdadeiro = verdadeiro
+verdadeiro E falso = falso
+falso E verdadeiro = falso
+falso E falso = falso
+
+verdadeiro OU verdadeiro = verdadeiro
+verdadeiro OU falso = verdadeiro
+falso OU verdadeiro = verdadeiro
+falso OU falso = falso
+
+
+
+a:7
+b: 5+2 > 5 * R:verdadeiro
+c: 5+2 <= 7 * R:verdadeiro
+d: 5+2 <= 7  == verdadeiro * R:Verdadeiro == Verdadeiro (Verdadeiro)
+e:5+2 ! =7 == falso * R:falso = falso (verdadeiro)
+f:5+2 != 7 == verdadeiro * R:falso
+g:5+2 != 7 == verdadeiro ou falso * R:falso
+h:falso e falso ou verdadeiro * R:verdadeiro
+
+i:5+2 != 7/2 + 3.5 == verdadeiro e falso * R: 7/2=3.5 ; 5+2=7  3.5+3.5=7 ; 7!7=falso ; f=v--falso (1ªdivisão,2ªaritimetica)
+
+j:verdadeiro E verdadeiro E verdadeiro OU verdadeiro E falso * R:verdadeiro (1ª faço todos E depois OU)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

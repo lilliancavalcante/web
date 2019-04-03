@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+    // Faça um programa que pergunte para o usuário a quantidade de números que ele quer digitar. 
+    // Após isso crie um laço que exiba o número que o usuário digitar apenas se for PAR.
+    //  Utilize a estrutura WHILE.
+    
+    let qtdNumeros = prompt("Quantos números você quer digitar?");
+    let cont = 1;
+
+    while( cont <= qtdNumeros ){
+        let numero = prompt(`Digite o ${cont} o número`);
+
+        if(numero % 2 == 0 ){//número é par?
+        alert(`Legal, você digitou um número par!`);
+        }
+        cont++;
+    }
+
+    alert("Fim do programa")
+
+
+    </script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+/*reset das propriedades */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 70%;
+    margin: 0 auto;
+}
+
+figure{
+    position: relative;
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+    width: 50%;
+}
+
+img {
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+figcaption {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

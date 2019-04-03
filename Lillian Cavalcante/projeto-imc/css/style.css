@@ -1,0 +1,114 @@
+@font-face{
+    font-family: 'Eduardo';
+    src : url(../fonts/Raleway-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+    font-family: 'Eduardo';
+    background-image: linear-gradient(to right, #e6e7ee, white);
+    background-repeat: no-repeat;
+    }
+
+header {
+    margin-top: 20px;
+    padding: 25px;
+    color: white;
+    background-color: #4144ad;
+    border-radius: 30px 30px 0 30px;
+}
+
+header h1 {
+    font-size: 1.5rem;
+}
+
+form fieldset {
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 15px 15px 0 15px;
+    border: 1px solid white;
+}
+
+form input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 0.9rem;
+    background-color: transparent;
+    border-radius: 2px 2px 2px 2px;
+    border: 1px solid white;
+}
+
+form input::placeholder {
+    color: white;
+}
+
+form button {
+    float: right;
+    height: 30px;
+    padding: 5px;
+    margin-left: 5px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-color: #4144ad;
+    color: white;
+    border-radius: 2px 2px 2px 2px;
+    border: 1px solid white;
+}
+
+main {
+    height: 45%;
+    overflow: auto;
+}
+
+table {
+    padding: 2px;
+    margin-top: 20px;
+    border: 1px solid #4144ad;
+
+}
+
+table th, table td {
+    
+    /* border: 1px solid black; */
+}
+table th {
+    font-weight: normal;
+    color: white;
+    background-color: #4144ad;
+    border: 1px solid #4144ad;
+}
+
+table td {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+table tr td:first-of-type {
+    text-align: left;
+}
+
+table tr:nth-child(odd){/*impar*/
+    background-color: #b2b4ec;
+    color: black;
+}
+
+table tr:nth-child(even){/*par*/
+    background-color: #4144ad;
+    color: white;
+
+}
